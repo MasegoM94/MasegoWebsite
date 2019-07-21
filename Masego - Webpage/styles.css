@@ -3,7 +3,7 @@ html,body{
 	font-family: sans-serif;
 	position: relative;
 	height: 100%;
-	background-color: #696969;
+	background-color:  #444242;
 
 }
 
@@ -93,6 +93,7 @@ div.columns {
     width: 100%; /*Optional*/
     table-layout: fixed; /*Optional*/
     border-spacing: 10px; /*Optional*/
+
 }
 .Column
 {
@@ -102,7 +103,9 @@ div.columns {
    
 }
 
-
+/*#workexperience{
+   background-color: #D3D3D3;
+}
 
 
 
@@ -139,16 +142,33 @@ h2{
 }
 
 
+h3{
+    font-weight: bold;
+    color: white;
+
+}
+
+h4{
+    text-align:center
+}
+
+
+h5{
+    text-align:center
+}
+
 dt{
 margin-left: 10px;
 color: white;
 font-weight: bold;
+text-align:center
 }
 
 
 dd{
 margin-left: 25px;
 font-weight: bold;
+text-align:center
 }
 
 
@@ -182,6 +202,10 @@ img{
 	width:75%;
 }
 
+#highlights{
+    text-align:left
+
+}
 ul{
 	list-style-type:none;
 	font-size:40px;
@@ -193,13 +217,22 @@ ul{
 
 
 #Shadow1 {
-  box-shadow: 0px 10px;
+  box-shadow: 0px 10px black;
   width: 95%;
     margin-left: auto; 
    margin-right: auto;
 
 }
 
+
+#Shadow3 {
+ 
+  width: 95%;
+    margin-left: auto; 
+   margin-right: auto;
+    background-color:   #A9A9A9;
+    
+}
 
 #Shadow2 {
  
@@ -218,4 +251,16 @@ ul{
     height:80px;
 	background-image: url('imgs/african_print.jpg');
 
+}
+
+#rcorners2 {
+      width: 95%;
+    margin-left: auto; 
+   margin-right: auto;
+    background-color:   #A9A9A9;
+    
+  border-radius: 25px;
+  border: 2px solid #A9A9A9;
+  padding: 10px; 
+ 
 }
