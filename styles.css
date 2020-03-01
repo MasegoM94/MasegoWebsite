@@ -168,8 +168,8 @@ text-align:center
 
 dd{
 margin-left: 25px;
-font-weight: bold;
-text-align:center
+/*font-weight: bold;*/
+/*text-align:center*/
 }
 
 
@@ -213,14 +213,7 @@ img{
     text-align:left
 
 }
-ul{
-	list-style-type:none;
-	font-size:40px;
-	font-weight: bold;
-	color: Maroon;
-	align-content: right;
 
-}
 
 
 #Shadow1 {
