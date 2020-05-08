@@ -11,13 +11,14 @@ html,body{
 
 div.background {
     background-image: url('imgs/Masego_Logo.png');
+    background-repeat: no-repeat;
     border: 2px solid black;
 }
 
 div.transbox {
     margin: 30px;
     background-color: #FFC0CB;
-    border: 0.6px solid black;
+    border: 0.7px solid black;
     opacity: 0.8;
 }
 
