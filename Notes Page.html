@@ -670,6 +670,118 @@
 
 
 
+
+
+
+
+
+
+<br>
+
+<!--Confusion Matrix and Classification metrics --> 
+
+<div class="grid-container" id="rcorners3">
+  <div class="grid-item" id="rcorners3">
+  		<center>
+		<h3 id="featuresheader1"> Confusion Matrix and Classification metrics  </h3>
+		<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226" target="_blank" class="mr-5 downloadbtn"> <i class="material-icons"  style="font-size:70px;color: #FFC0CB">web</i> </a>
+		<br>
+		<br>
+		<img src="imgs/calendar.png" style="width:10%;">
+		<p> 18/05/2020 </p>
+
+		</center>
+  </div>
+
+  <div class="grid-item" id="rcorners3">
+
+  <p style="color:white"> In my line of work, evaluating models is very essential when settling on a model. However, in corporate I have noticed that we have a tendency at always looking at the same metrics which I attribute to business having to understand the evaluation versus just the technical person. With this post I just wanted to note the metrics available for the classification problems. Before we get to the metrics, I need to bring attention to the confusion matrix. I have added an example alongside. It is a table that documents the predicted classes against the actual classes and allows us to see how and where there were correct and incorrect predicted classifications. This matrix is important in calculating other metrics that will be discussed.<br>  <br>
+  	
+  	<i> Accuracy </i> is the most commonly used metric. It gives us the percentage of times the model predicted the correct class. This could be misleading if there is an imbalance in the classes in the data. <br> <br>
+
+  	<i> Misclassification / Error rate </i> gives us the percentage of times the model predicted incorrectly [1 - <i>Accuracy</i>]. <br> <br>
+
+  	<i> Precision </i> gives us percentage of times when the model predicted a certain class, and how often it was right. This is could be like looking at accuracy of prediction of a particular class. When the model predicted TRUE how often was it right.  <br> 
+   <sup> TP </sup>/<sub><i>(TP + FN)</i></sub> <br><br> 
+
+  	<i> Recall/Sensitivity </i> is the percentage of times a particular class was predicted correctly. When the actual value is TRUE how often did the model correctly predict the value to be TRUE. <br>
+    <sup> TP </sup>/<sub><i>(TP + FP)</i></sub> <br><br> 
+
+  	Because we would like a model to be high for both precision and recall and therefore there is another metric that is created as a result of considering both metrics, called an <i>F-measure (F1-Score)</i>. It is the Harmonic mean of the two measures. <br>
+   <sup> (2 X <i>Precision</i> X <i>Recall</i>)</sup>/<sub><i>(Precision</i>+<i>Recall)</i></sub> <br><br> 
+
+
+   <i>Specificity</i> is like if we were looking at recall but for actual FALSE. When the actual value is FALSE how often did the model correctly predict the value to be FALSE. <br>
+   <sup> TN </sup>/<sub><i>(TN + FP)</i></sub> <br><br> 
+
+ This <a href="https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226" target="_blank"> medium </a> article tells us when to use which metric. The article also introduces the concept of a weighted <i> F1 score</i> as we don't always weight the <i>precision</i> and <i>recall</i> the same <br>
+
+   <sup> (1+ &beta;&sup2;)(<i>Precision</i> X <i>Recall</i>) </sup>/<sub><i>( ( &beta;&sup2; X  Precision ) + Recall)</i></sub> <br>
+   where &beta; times as importance to <i>Recall</i> as <i>Precision</i> <br> 
+<br> 
+   This same article also has 3 more metrics, that haven't been discussed here, i.e. Logloss/Binary Crossentropy, Categorical Crossentropy and Area under the Curve (AUC). Also note that crossentropy's are susceptible to class imbalance and it is suggested that one uses a weighted approach.  
+
+
+<br>
+  Look at us learning stuff
+<br>
+  Enjoy :)
+  <br>
+  Masego   </p>
+  </div>
+
+
+  <div class="grid-item" id="rcorners3">
+  	<left>
+
+
+
+
+		<center>
+			  <br>
+		<a href="https://manisha-sirsat.blogspot.com/2019/04/confusion-matrix.html" target="_blank" class="mr-5 downloadbtn"> <img src="imgs/confusion_matrix.jpg" id="DataScienceImages">  </a>
+		<br>
+
+		<br>
+
+
+				<br>
+
+	 <a href="https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226" target="_blank" class="mr-5 downloadbtn">Medium article of 5 Classification metrics</a>. 
+	<br>
+		</center>
+
+	
+
+
+
+ 		</left>
+  </div>
+ 
+ 	
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<div id="footer">
 	</div>
 
