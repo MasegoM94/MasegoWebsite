@@ -89,6 +89,30 @@
 	  	TrackProgress.style.fontSize="XX-large";
 	  	})		
 
+   //Initilize start value to 1 'For Slide1.GIF'
+   		var currentIndex = 1;
+   //NOTE: Set this value to the number of slides you have in the presentation.
+    	var maxIndex=5;
+
+    function swapImage(imageIndex){
+        //Check if we are at the last image already, return if we are.
+        if(imageIndex>maxIndex){
+            currentIndex=maxIndex;
+            return;
+        }
+
+        //Check if we are at the first image already, return if we are.
+        if(imageIndex<1){
+            currentIndex=1;
+            return;
+        }
+
+        currentIndex=imageIndex;
+        //Otherwise update mainImage
+        document.getElementById("mainImage").src='Previous_works/Deep_Learning_Indaba_slides/Slide1/Slide' +  currentIndex  + '.GIF';
+        return;
+    }
+
 
 function changeColor(){
 	  	var x = document.getElementsByTagName("UL"); //remember that this gives a list of items

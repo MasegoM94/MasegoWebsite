@@ -75,7 +75,7 @@ In the future I would like to try replicate this  possibly in R or PowerBI</p>
   <div class="Row" id="rcorners3">
   		<left>
 		<center>
-		<a href="https://www.youtube.com/watch?v=3ZiA0VZg7f8" target="_blank" class="mr-5 downloadbtn"><img src="Previous works/Data Viz project Masters/Final Design.png" id="DataScienceImages"></a>
+		<a ><img src="Previous_works/Data Viz project Masters/Final Design.png" id="DataScienceImages"></a>
 		</center>
  		</left>
   </div>
@@ -83,11 +83,89 @@ In the future I would like to try replicate this  possibly in R or PowerBI</p>
 </div>
 
 
+<br> 
+<br>
+
+
+<section id="rcorners3">
+  
+  				
+		<h2 id="featuresheader">Short Deep Learning Indaba presentation - Deep Learning Fundamentals </h2>
+		<br/>
+		<center>
+		<img src="imgs/calendar.png" id="LinkedIn">
+		<p> 2019 </p>
+ 		</center>
+
+  <div class="Row" id="rcorners3">
+  <p style="color:white"> At the end of August of 2019, I was fortunate enough to attend the deep learning Indaba that was hosted by Kenyatta University in Kenya. It was such a humbling experience. I have not been to Kenya before and it was eye-opening to see an African country outside the Southern Africa region and it made me grateful for the architecture we have back in South Africa and that we as African countries really need to support each other more when it comes to our economic developments. I also got to meet a number of people from all over the world that are doing great things with machine learning and data science in their respective fields. The Indaba is a data science/Artifical Intelligence(AI) conference based in Africa with a focus on African problems. There were various talks and tutorials that were given throughout the week-long conference. I was amazed by the possibilities of the application of Deep Learning (DL) in the world. I will foreveer be grateful for my employers for sending me and a group of others to the conference. As a group we gave a presentation to the business on basically what we learnt from our excursion. In my section of the presentation I gave a hort intro into what DL is and what DL is and how it fits in the concept of machine learning since DL is the focus of this particular conference. I just wanted to share my slides to that presentation. 
+  	<br>
+  	It was short and sweet.
+  	<br>
+  	<br>
+  	 Enjoy :)
+
+  </div>
+
+ </section>
+
+  <div class="Row" id="rcorners3">
+  		<left>
+
+		<center>
+			
+			<img src="Previous_works/Deep_Learning_Indaba_slides/Slide1/Slide1.GIF" id="mainImage" name="mainImage" width="100%" height="100%" alt="">
+
+		<!--	<iframe src="Previous_works/Deep_Learning_Indaba_slides/Deep_learning_Indaba.ppsx" width="800px" heigt="600px"></iframe>
+			<iframe width="100%" height="630" src="docs.google.com/viewer?url=Previous_works/Deep_Learning_Indaba_slides/Deep_learning_Indaba.ppt&embedded=true" ></iframe>
+		<iframe src="//docs.google.com/gview?url=https://masegom94.github.io/MasegoWebsite/Previous_works/Deep_Learning_Indaba_slides/Deep_learning_Indaba.ppt&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe> -->
+
+		</center>
+		<center>
+		<a href='javascript:void();' onclick="swapImage(1);"><i class="material-icons"  style="font-size:70px;color: #FFC0CB">first_page</i> </a>
+		<a href='javascript:void();' onclick="swapImage(currentIndex-1);"><i class="material-icons"  style="font-size:70px;color: #FFC0CB">navigate_before</i> </a>
+		<a  href='javascript:void();' onclick="swapImage(currentIndex+1);"><i class="material-icons"  style="font-size:70px;color: #FFC0CB">navigate_next</i></a>
+		<a href='javascript:void();' onclick="swapImage(maxIndex);"><i class="material-icons"  style="font-size:70px;color: #FFC0CB">last_page</i></a>
+</center>
+ 		</left>
+  </div>
+
+</div>
+
+
+
 <br>
 
 	<div id="footer">
 	</div>
 
-  <script src = "my_js.js"></script>
+  
+  <script type="text/javascript">
+    //Initilize start value to 1 'For Slide1.GIF'
+    var currentIndex = 1;
+
+    //NOTE: Set this value to the number of slides you have in the presentation.
+    var maxIndex=5;
+
+    function swapImage(imageIndex){
+        //Check if we are at the last image already, return if we are.
+        if(imageIndex>maxIndex){
+            currentIndex=maxIndex;
+            return;
+        }
+
+        //Check if we are at the first image already, return if we are.
+        if(imageIndex<1){
+            currentIndex=1;
+            return;
+        }
+
+        currentIndex=imageIndex;
+        //Otherwise update mainImage
+        document.getElementById("mainImage").src='Previous_works/Deep_Learning_Indaba_slides/Slide1/Slide' +  currentIndex  + '.GIF';
+        return;
+    }
+</script>
+<script src = "my_js.js"></script>
 </body>
 </html>w
